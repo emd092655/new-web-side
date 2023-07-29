@@ -1,0 +1,56 @@
+/* common shared styles */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'open sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+        border-radius: 5px;
+        background-color: #FD6E0A ;
+        border: 0;
+        color: white;
+        font-size: 20pxp;
+        font-weight: 700;
+        padding: 15px 35px;
+}
+/* nav related styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+   
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header bg.png');
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner.profile-pic{
+    weight:500px
+
+}
